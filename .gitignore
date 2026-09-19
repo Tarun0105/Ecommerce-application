@@ -1,0 +1,62 @@
+# Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.mvn/timing.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+dist/
+build/
+.npm
+
+# Vite
+.vite/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+application-local.yml
+application-secrets.yml
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# OS
+.DS_Store
+.DS_Store?
+Thumbs.db
+._*
+
+# Spring Boot
+spring-shell.log
+
+# Database
+*.db
+*.h2.db
+*.mv.db
+*.trace.db
+
+# Coverage
+htmlcov/
+.coverage
